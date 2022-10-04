@@ -1,0 +1,343 @@
+.login {
+    height: 1000px;
+    width: 100%;
+    background: radial-gradient(#5c5a5a, #4b5e42);
+    position: relative;
+}
+
+.padding-top-img {
+    padding-top: 35%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login_box {
+    width: 1050px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+
+.login_box .solo {
+    width: 100%;
+    height: 100%;
+}
+
+.solo h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.solo h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+.solo h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.solo-qual-h2 {
+    text-align: center;
+    margin-top: 70px !important;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.solo-qual-h3 {
+    text-align: center;
+    margin-top: 70px !important;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.solo-noqual-h2 {
+    text-align: center;
+    margin-top: 70px !important;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.solo-noqual-h3 {
+    text-align: center;
+    margin-top: 80px !important;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.solo-error-h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 150px !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.solo-error-h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-top: 160px !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login_box .left {
+    width: 41%;
+    height: 100%;
+    padding: 25px 25px;
+}
+
+.login_box .right {
+    width: 59%;
+    height: 100%
+}
+
+.left .top_link a {
+    color: #452A5A;
+    font-weight: 400;
+}
+
+.left .top_link {
+    height: 20px
+}
+
+.left .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+
+.left h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left input {
+    border: none;
+    width: 80%;
+    margin: 10px 0px;
+    margin-top: 20px;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.left {
+    background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    border-radius: 15px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+}
+
+.close {
+    color: #aaaaaa;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    background: #288d2b;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgb(55, 76, 63);
+    -moz-box-shadow: 0px 9px 15px -11px rgb(51, 63, 56);
+    box-shadow: 0px 9px 15px -11px rgb(47, 56, 50);
+}
+
+
+
+.right {
+    background: linear-gradient(212.38deg, rgba(1, 94, 15, 0.7) 0%, rgba(158, 239, 142, 0.71) 100%), url("../img/background2.jpg");
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.right .right-text {
+    height: 100%;
+    position: relative;
+    transform: translate(0%, 45%);
+}
+
+.right-text h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
+
+@media (min-width: 1092px) {
+    .logo {
+        display: none;
+    }
+
+    .left h2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1092px) {
+    .login_box {
+        width: 90%;
+        height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 4px 22px -8px #0004;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .login_box .left {
+        height: 100%;
+        width: 100%;
+        padding: 25px 25px;
+
+    }
+
+    .logo {
+        margin-bottom: 70px;
+    }
+
+    .login_box .right {
+        height: 0%;
+        width: 0%;
+    }
+
+    .solo h1 {
+        font-size: 30px;
+    }
+
+    .solo h2 {
+        font-size: 18px;
+    }
+
+    .solo h3 {
+        font-size: 15px;
+    }
+
+    .solo-qual-h2 {
+        text-align: center;
+        margin-top: 75px !important;
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .solo-qual-h3 {
+        text-align: center;
+        margin-top: 75px !important;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .solo-noqual-h2 {
+        text-align: center;
+        margin-top: 60px !important;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .solo-noqual-h3 {
+        text-align: center;
+        margin-top: 70px !important;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .solo-error-h3 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 150px !important;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .solo-error-h2 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+        margin-top: 160px !important;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+}
