@@ -1,8 +1,10 @@
 .login {
-    height: 1000px;
+    min-height: 100vh;
     width: 100%;
     background: radial-gradient(#5c5a5a, #4b5e42);
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .padding-top-img {
@@ -22,12 +24,9 @@
 }
 
 .login_box {
-    width: 1050px;
-    height: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 5rem 0rem;
+    width: 110rem;
+    height: 60rem;
     background: #fff;
     border-radius: 10px;
     box-shadow: 1px 4px 22px -8px #0004;
@@ -220,8 +219,9 @@
 
 
 .right {
-    background: linear-gradient(212.38deg, rgba(1, 94, 15, 0.7) 0%, rgba(158, 239, 142, 0.71) 100%), url("../img/background2.jpg");
+    background: linear-gradient(212.38deg, rgba(1, 94, 15, 0.7) 0%, rgba(158, 239, 142, 0.71) 100%), url("../img/background.webp");
     background-size: cover;
+    background-position: center;
     color: #fff;
     position: relative;
 }
@@ -259,11 +259,7 @@
 @media (max-width: 1092px) {
     .login_box {
         width: 90%;
-        height: 600px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        height: 50rem;
         background: #fff;
         border-radius: 10px;
         box-shadow: 1px 4px 22px -8px #0004;

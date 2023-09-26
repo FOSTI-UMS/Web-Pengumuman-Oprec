@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PesertaController;
+use App\Http\Controllers\ParticipantsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [PesertaController::class, 'index']);
-Route::post('/', [PesertaController::class, 'search'])->name('pengumuman');
-Route::get('/pengumuman', [PesertaController::class, 'pengumuman']);
+Route::get('/', [ParticipantsController::class, 'index']);
+Route::post('/', [ParticipantsController::class, 'search'])->name('search');
+Route::get('/announcement', [ParticipantsController::class, 'announcement']);
